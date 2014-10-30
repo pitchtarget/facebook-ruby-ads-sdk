@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Kangoo::VERSION
   spec.authors       = ["Andrea Dal Ponte"]
   spec.email         = ["info@andreadalponte.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Facebook Ads API SDK for Ruby}
+  spec.description   = %q{Facebook Ads API SDK for Ruby}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -19,9 +19,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "koala"
-  spec.add_dependency "pry"
-  spec.add_dependency "pry-byebug"
 
   spec.add_development_dependency "bundler", "~> 1.7"
-  spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "rake",    "~> 10.0"
 end

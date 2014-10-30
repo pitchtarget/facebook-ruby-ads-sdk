@@ -1,6 +1,6 @@
 # Kangoo
 
-TODO: Write a gem description
+Facebook Ads API SDK for Ruby
 
 ## Installation
 
