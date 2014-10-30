@@ -1,7 +1,13 @@
 require 'kangoo'
+require 'dotenv'
 require 'webmock/rspec'
+require 'vcr'
 
+# Require support libs
 Dir[File.join(File.dirname(__FILE__), 'support/**/*.rb')].each { |f| require f }
+
+# Load test env variables
+Dotenv.load
 
 # WebMock setup
 WebMock.disable_net_connect!
@@ -67,4 +73,16 @@ RSpec.configure do |config|
     # a real object. This is generally recommended.
     mocks.verify_partial_doubles = true
   end
+end
+
+VCR.configure do |c|
+  c.cassette_library_dir = 'cassettes'
+  c.hook_into :webmock
+  c.filter_sensitive_data('<FACEBOOK_TOKEN>') do
+    test_facebook_token
+  end
+end
+
+def test_facebook_token
+  ENV.fetch 'KANGOO_TEST_FACEBOOK_TOKEN', 'x' * 40
 end

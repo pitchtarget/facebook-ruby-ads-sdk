@@ -10,6 +10,8 @@ group :development do
 end
 
 group :test do
-  gem 'rspec', '~> 3.1.0'
-  gem 'webmock'
+  gem 'rspec',   '~> 3.1.0'
+  gem 'webmock', '~>1.20.0'
+  gem 'vcr',     '~> 2.9.3'
+  gem 'dotenv'
 end
