@@ -76,13 +76,22 @@ RSpec.configure do |config|
 end
 
 VCR.configure do |c|
-  c.cassette_library_dir = 'cassettes'
+  c.cassette_library_dir = 'spec/cassettes'
   c.hook_into :webmock
+
   c.filter_sensitive_data('<FACEBOOK_TOKEN>') do
     test_facebook_token
+  end
+
+  c.filter_sensitive_data('<AD_ACCOUNT_ID>') do
+    test_ad_account_id
   end
 end
 
 def test_facebook_token
   ENV.fetch 'KANGOO_TEST_FACEBOOK_TOKEN', 'x' * 40
+end
+
+def test_ad_account_id
+  ENV.fetch 'KANGOO_TEST_AD_ACCOUNT_ID', '12345678'
 end

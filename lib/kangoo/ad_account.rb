@@ -6,8 +6,8 @@ module Kangoo
       end
 
       def all(client)
-        self.raw_all(client).map do |data|
-          AdAccount.new data[:account_id]
+        self.raw_data(client).map do |data|
+          AdAccount.new data['account_id'], client
         end
       end
     end

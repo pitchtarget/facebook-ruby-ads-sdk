@@ -1,0 +1,50 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://graph.facebook.com/me/adaccounts?access_token=<FACEBOOK_TOKEN>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Facebook-Api-Version:
+      - v1.0
+      Etag:
+      - '"f648b5305fd7c5223ea332ee92e639e5a62b789a"'
+      Content-Type:
+      - application/json; charset=UTF-8
+      Pragma:
+      - no-cache
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Fb-Rev:
+      - '1475845'
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      X-Fb-Debug:
+      - 3slyYDa32Fh2T3Kkqo45U9YJ+zUkNT79pz5lc2whhjT6m0LEEZNUG3gigTAvFwfXSXD6ksF3eokXUSH7EQZNDw==
+      Date:
+      - Fri, 31 Oct 2014 00:01:48 GMT
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '142'
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"account_id":"<AD_ACCOUNT_ID>","id":"act_<AD_ACCOUNT_ID>"}],"paging":{"cursors":{"after":"NjAwMjM5NTc1NjY0Ng==","before":"NjAwMjM5NTc1NjY0Ng=="}}}'
+    http_version: 
+  recorded_at: Fri, 31 Oct 2014 00:01:48 GMT
+recorded_with: VCR 2.9.3

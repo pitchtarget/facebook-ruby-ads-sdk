@@ -1,3 +1,6 @@
+require 'kangoo/client'
+require 'kangoo/ad_account'
+
 module Kangoo
   class Api
     attr_reader :client, :http
@@ -6,12 +9,12 @@ module Kangoo
       @client = Client.new(auth_token)
     end
 
-    def find_ad_account(account_id)
-      AdAccount.new(account_id, self.client)
+    def ad_accounts
+      @ad_accounts ||= AdAccount.all(self.client)
     end
 
-    def ad_accounts
-      AdAccount.all(self.client)
+    def find_ad_account(account_id)
+      AdAccount.new(account_id, self.client)
     end
   end
 end
