@@ -3,5 +3,6 @@ require "kangoo/api"
 require "koala"
 
 module Kangoo
-  # Your code goes here...
+  module Object
+  end
 end

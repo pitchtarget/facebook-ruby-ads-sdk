@@ -35,9 +35,9 @@ http_interactions:
       Expires:
       - Sat, 01 Jan 2000 00:00:00 GMT
       X-Fb-Debug:
-      - 38q32OKwf43VlOgb0Yu5f30vio4txEZUrXccNQ+NH1RVeID2AKwzSthdWyBhAw8Rqto1Vl7kBw0B0A5g4MHv8g==
+      - 2RTuaV1S9CnahbkxYh3v2nm9elfXFvZBnt5/76afQXWcBMijO24J38DwIO+Ipy8bvjATtqXp1zU68ZLvxY2gzA==
       Date:
-      - Tue, 04 Nov 2014 08:48:43 GMT
+      - Tue, 04 Nov 2014 00:32:05 GMT
       Connection:
       - keep-alive
       Content-Length:
@@ -46,5 +46,5 @@ http_interactions:
       encoding: UTF-8
       string: '{"data":[{"account_id":"<AD_ACCOUNT_ID>","id":"act_<AD_ACCOUNT_ID>"}],"paging":{"cursors":{"after":"NjAwMjM5NTc1NjY0Ng==","before":"NjAwMjM5NTc1NjY0Ng=="}}}'
     http_version: 
-  recorded_at: Tue, 04 Nov 2014 08:48:43 GMT
+  recorded_at: Tue, 04 Nov 2014 00:32:06 GMT
 recorded_with: VCR 2.9.3

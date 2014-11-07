@@ -1,5 +1,5 @@
 require 'kangoo/client'
-require 'kangoo/ad_account'
+require 'kangoo/object/ad_account'
 
 module Kangoo
   class Api
@@ -10,11 +10,11 @@ module Kangoo
     end
 
     def ad_accounts
-      @ad_accounts ||= AdAccount.all(self.client)
+      @ad_accounts ||= Object::AdAccount.all(self.client)
     end
 
     def find_ad_account(account_id)
-      AdAccount.new(account_id, self.client)
+      Object::AdAccount.find(account_id, self.client)
     end
   end
 end
