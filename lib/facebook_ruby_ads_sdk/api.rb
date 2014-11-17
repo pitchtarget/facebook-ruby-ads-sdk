@@ -1,5 +1,5 @@
-require 'facebook-ruby-ads-sdk/client'
-require 'facebook-ruby-ads-sdk/object/ad_account'
+require 'facebook_ruby_ads_sdk/client'
+require 'facebook_ruby_ads_sdk/object/ad_account'
 
 module FacebookRubyAdsSdk
   class Api

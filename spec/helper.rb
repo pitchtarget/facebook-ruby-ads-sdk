@@ -1,4 +1,4 @@
-require 'facebook-ruby-ads-sdk'
+require 'facebook_ruby_ads_sdk'
 require 'dotenv'
 require 'webmock/rspec'
 require 'vcr'
