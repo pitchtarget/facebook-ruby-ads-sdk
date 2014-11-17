@@ -1,4 +1,4 @@
-require 'kangoo'
+require 'facebook-ruby-ads-sdk'
 require 'dotenv'
 require 'webmock/rspec'
 require 'vcr'
@@ -90,9 +90,9 @@ VCR.configure do |c|
 end
 
 def test_facebook_token
-  ENV.fetch 'KANGOO_TEST_FACEBOOK_TOKEN', 'x' * 40
+  ENV.fetch 'FACEBOOK_RUBY_ADS_SDK_TEST_FACEBOOK_TOKEN', 'x' * 40
 end
 
 def test_ad_account_id
-  ENV.fetch 'KANGOO_TEST_AD_ACCOUNT_ID', '12345678'
+  ENV.fetch 'FACEBOOK_RUBY_ADS_SDK_TEST_AD_ACCOUNT_ID', '12345678'
 end

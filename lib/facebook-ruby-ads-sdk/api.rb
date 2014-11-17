@@ -1,7 +1,7 @@
-require 'kangoo/client'
-require 'kangoo/object/ad_account'
+require 'facebook-ruby-ads-sdk/client'
+require 'facebook-ruby-ads-sdk/object/ad_account'
 
-module Kangoo
+module FacebookRubyAdsSdk
   class Api
     attr_reader :client, :http
 

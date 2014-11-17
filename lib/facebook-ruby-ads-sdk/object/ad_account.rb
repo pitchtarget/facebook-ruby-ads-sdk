@@ -1,4 +1,4 @@
-module Kangoo
+module FacebookRubyAdsSdk
   module Object
     class AdAccount
       class << self

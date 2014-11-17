@@ -1,6 +1,6 @@
 require 'koala'
 
-module Kangoo
+module FacebookRubyAdsSdk
   class Client
     attr_reader :koala
 

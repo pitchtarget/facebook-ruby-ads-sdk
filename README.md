@@ -1,4 +1,4 @@
-# Kangoo
+# Facebook Ruby Ads Sdk
 
 Facebook Ads API SDK for Ruby
 
@@ -7,7 +7,7 @@ Facebook Ads API SDK for Ruby
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'kangoo'
+gem 'facebook-ruby-ads-sdk'
 ```
 
 And then execute:
@@ -16,15 +16,19 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install kangoo
+    $ gem install facebook-ruby-ads-sdk
 
 ## Usage
 
 TODO: Write usage instructions here
 
+## Run Test
+
+`rspec`
+
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/kangoo/fork )
+1. Fork it ( https://github.com/[my-github-username]/facebook-ruby-ads-sdk/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
