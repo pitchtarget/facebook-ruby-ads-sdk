@@ -1,5 +1,7 @@
 # Facebook Ruby Ads Sdk
 
+[![Build Status](https://travis-ci.org/pitchtarget/facebook-ruby-ads-sdk.svg)](https://travis-ci.org/pitchtarget/facebook-ruby-ads-sdk)
+
 Facebook Ads API SDK for Ruby
 
 ## Installation
