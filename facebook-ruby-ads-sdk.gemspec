@@ -20,11 +20,8 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "koala"
 
-  spec.add_development_dependency "bundler", "~> 1.7"
+  spec.add_development_dependency "bundler", ">= 1.6"
   spec.add_development_dependency "rake",    "~> 10.0"
-  spec.add_development_dependency 'pry'
-  spec.add_development_dependency 'pry-byebug'
-  spec.add_development_dependency 'pry-stack_explorer'
   spec.add_development_dependency 'rspec',   '~> 3.1.0'
   spec.add_development_dependency 'webmock', '~>1.20.0'
   spec.add_development_dependency 'vcr',     '~> 2.9.3'

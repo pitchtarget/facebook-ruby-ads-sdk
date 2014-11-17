@@ -1,6 +1,8 @@
 # Facebook Ruby Ads Sdk
 
 [![Build Status](https://travis-ci.org/pitchtarget/facebook-ruby-ads-sdk.svg)](https://travis-ci.org/pitchtarget/facebook-ruby-ads-sdk)
+[![Code Climate](https://codeclimate.com/github/pitchtarget/facebook-ruby-ads-sdk/badges/gpa.svg)](https://codeclimate.com/github/pitchtarget/facebook-ruby-ads-sdk)
+[![Test Coverage](https://codeclimate.com/github/pitchtarget/facebook-ruby-ads-sdk/badges/coverage.svg)](https://codeclimate.com/github/pitchtarget/facebook-ruby-ads-sdk)
 
 Facebook Ads API SDK for Ruby
 
