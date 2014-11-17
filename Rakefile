@@ -6,4 +6,4 @@ RSpec::Core::RakeTask.new(:spec)
 RuboCop::RakeTask.new
 
 task test:    :spec
-task default: :spec
+task default: [:spec, :rubocop]
