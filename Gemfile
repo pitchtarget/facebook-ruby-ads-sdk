@@ -7,4 +7,5 @@ group :debug do
   gem 'pry'
   gem 'pry-byebug'
   gem 'pry-stack_explorer'
+  gem 'rubocop', require: false
 end

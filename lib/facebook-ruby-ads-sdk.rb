@@ -1,6 +1,6 @@
-require "facebook-ruby-ads-sdk/version"
-require "facebook-ruby-ads-sdk/api"
-require "koala"
+require 'facebook-ruby-ads-sdk/version'
+require 'facebook-ruby-ads-sdk/api'
+require 'koala'
 
 module FacebookRubyAdsSdk
   module Object

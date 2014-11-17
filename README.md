@@ -26,9 +26,15 @@ Or install it yourself as:
 
 TODO: Write usage instructions here
 
-## Run Test
+## Development and Run Test
 
-`rspec`
+Due to a [bug in bundler](http://stackoverflow.com/questions/4118055/rails-bundler-doesnt-install-gems-inside-a-group) to install the debug group you need to run:
+
+```
+bundle install --without nothing
+```
+
+To run all tests: `rake`
 
 ## Contributing
 

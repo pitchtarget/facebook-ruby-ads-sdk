@@ -10,11 +10,11 @@ module FacebookRubyAdsSdk
     end
 
     def ad_accounts
-      @ad_accounts ||= Object::AdAccount.all(self.client)
+      @ad_accounts ||= Object::AdAccount.all(client)
     end
 
     def find_ad_account(account_id)
-      Object::AdAccount.find(account_id, self.client)
+      Object::AdAccount.find(account_id, client)
     end
   end
 end

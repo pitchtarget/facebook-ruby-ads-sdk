@@ -12,8 +12,8 @@ module FacebookRubyAdsSdk
       end
 
       def self.all(client)
-        self.raw_data(client).map do |data|
-          self.new data['account_id'], client
+        raw_data(client).map do |data|
+          new data['account_id'], client
         end
       end
 
@@ -22,8 +22,8 @@ module FacebookRubyAdsSdk
         @client = client
       end
 
-      def read(fields = %w{name balance})
-        self.client.get_object("act_#{self.account_id}", fields: fields.join(','))
+      def read(fields = %w(name balance))
+        client.get_object("act_#{account_id}", fields: fields.join(','))
       end
     end
   end
