@@ -1,5 +1,5 @@
-require 'facebook-ruby-ads-sdk/client'
-require 'facebook-ruby-ads-sdk/object/ad_account'
+require 'facebook_ruby_ads_sdk/client'
+require 'facebook_ruby_ads_sdk/object/ad_account'
 
 module FacebookRubyAdsSdk
   class Api
@@ -10,11 +10,11 @@ module FacebookRubyAdsSdk
     end
 
     def ad_accounts
-      @ad_accounts ||= Object::AdAccount.all(self.client)
+      @ad_accounts ||= Object::AdAccount.all(client)
     end
 
     def find_ad_account(account_id)
-      Object::AdAccount.find(account_id, self.client)
+      Object::AdAccount.find(account_id, client)
     end
   end
 end
