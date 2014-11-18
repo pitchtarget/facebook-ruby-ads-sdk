@@ -1,4 +1,5 @@
 # Facebook Ruby Ads Sdk
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/pitchtarget/facebook-ruby-ads-sdk?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 [![Build Status](https://travis-ci.org/pitchtarget/facebook-ruby-ads-sdk.svg)](https://travis-ci.org/pitchtarget/facebook-ruby-ads-sdk)
 [![Code Climate](https://codeclimate.com/github/pitchtarget/facebook-ruby-ads-sdk/badges/gpa.svg)](https://codeclimate.com/github/pitchtarget/facebook-ruby-ads-sdk)
