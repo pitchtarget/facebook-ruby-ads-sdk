@@ -1,7 +1,15 @@
-require 'helper'
+require 'spec_helper'
 
-describe 'The truth' do
-  subject { true }
+describe FacebookAds do
+  describe '.configure' do
+    before do
+      FacebookAds.configure do |config|
+        config.access_token = 'foo'
+      end
+    end
 
-  it { is_expected.to be_truthy }
+    subject { FacebookAds.client }
+
+    it { is_expected.to_not be_nil }
+  end
 end

@@ -25,7 +25,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### Configuring the default Facebook client
+
+In order to talk to Facebook, you need to provide a valid access token and instruct facebook_ads to use it.
+
+```ruby
+FacebookAds.configure do |config|
+  config.access_token = 'MY_ACCESS_TOKEN'
+end
+```
 
 ## Development and Run Test
 

@@ -1,6 +1,3 @@
-require 'facebook_ads/client'
-require 'facebook_ads/object/ad_account'
-
 module FacebookAds
   class Api
     attr_reader :client, :http
