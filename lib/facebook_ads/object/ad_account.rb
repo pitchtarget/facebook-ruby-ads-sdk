@@ -1,4 +1,4 @@
-module FacebookRubyAdsSdk
+module FacebookAds
   module Object
     class AdAccount
       class << self

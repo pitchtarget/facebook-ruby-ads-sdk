@@ -12,7 +12,7 @@ Facebook Ads API SDK for Ruby
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'facebook-ruby-ads-sdk'
+gem 'facebook_ads'
 ```
 
 And then execute:
@@ -21,7 +21,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install facebook-ruby-ads-sdk
+    $ gem install facebook_ads
 
 ## Usage
 
