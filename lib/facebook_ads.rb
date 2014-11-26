@@ -1,8 +1,19 @@
 require 'facebook_ads/version'
+require 'facebook_ads/client'
+
 require 'facebook_ads/api'
-require 'koala'
+require 'facebook_ads/object/ad_account'
 
 module FacebookAds
-  module Object
+  class << self
+    attr_reader :client
+    def configure(&block)
+      block.call(config)
+      @client = FacebookAds::Client.new(config.access_token)
+    end
+
+    def config
+      @config ||= OpenStruct.new()
+    end
   end
 end
