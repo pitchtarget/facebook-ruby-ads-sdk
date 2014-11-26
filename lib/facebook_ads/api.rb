@@ -1,7 +1,7 @@
-require 'facebook_ruby_ads_sdk/client'
-require 'facebook_ruby_ads_sdk/object/ad_account'
+require 'facebook_ads/client'
+require 'facebook_ads/object/ad_account'
 
-module FacebookRubyAdsSdk
+module FacebookAds
   class Api
     attr_reader :client, :http
 

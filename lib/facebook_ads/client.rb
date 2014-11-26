@@ -1,6 +1,6 @@
 require 'koala'
 
-module FacebookRubyAdsSdk
+module FacebookAds
   class Client
     attr_reader :koala
 
