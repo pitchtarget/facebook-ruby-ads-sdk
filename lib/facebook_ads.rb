@@ -13,7 +13,7 @@ module FacebookAds
     end
 
     def config
-      @config ||= OpenStruct.new()
+      @config ||= OpenStruct.new
     end
   end
 end
