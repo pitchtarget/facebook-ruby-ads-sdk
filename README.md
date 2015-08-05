@@ -45,6 +45,10 @@ bundle install --without nothing
 
 To run all tests: `rake`
 
+### Internals
+
+
+
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/facebook-ruby-ads-sdk/fork )

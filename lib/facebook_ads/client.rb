@@ -1,5 +1,5 @@
 require 'koala'
-Koala.config.api_version = 'v2.2'
+Koala.config.api_version = 'v2.4'
 
 module FacebookAds
   class Client < SimpleDelegator
